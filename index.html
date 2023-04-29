@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.cdnfonts.com/css/new-x-digital-tfb" rel="stylesheet">
+</head>
+<body>
+  <div class="calculadora">
+    <div class="pantalla" id="pa">
+      <input type="text" readonly>
+    </div>
+
+    <div class="botones">
+      <button class="numero">7</button>
+      <button class="numero">8</button>
+      <button class="numero">9</button>
+      <button class="limpiar">C
+        <br><span id="small">limpiar</span>
+      </button>
+      <button class="numero">4</button>
+      <button class="numero">5</button>
+      <button class="numero">6</button>
+      <button class="igual">=
+        <br><span id="small">resultado</span>
+      </button>
+      <button class="numero">1</button>
+      <button class="numero">2</button>
+      <button class="numero">3</button>
+      <button class="raiz-cuadrada">√x
+        <br><span id="small">√8</span>
+      </button>
+      <button class="numero">0</button>
+      <button class="decimal">.</button>
+      <button class="operador">+</button>
+      <button class="logaritmo">lg
+        <br><span id="small">lg1000</span>
+      </button>
+      <button class="operador">-</button>
+      <button class="operador">/</button>
+      <button class="operador">*</button>
+      <button class="seno">sin
+        <br><span id="small">sin45</span>
+      </button>
+      <button class="coseno">cos
+        <br><span id="small">sin35</span>
+      </button>
+      <button class="tangente">tan
+        <br><span id="small">tan90</span>
+      </button>
+      <button class="potencia">x^y
+        <br><span id="small">2^3</span>
+      </button>
+      <button class="pi">π
+        <br><span id="small">3.1416</span>
+      </button>
+      <button class="xi">x!
+        <br><span id="small">8 x!</span>
+      </button>
+      <button class="x2">x^2
+        <br><span id="small">8^2</span>
+      </button>
+      <button class="exp">exp
+        <br><span id="small">3exp5</span>
+      </button>
+      <button class="e">e
+        <br><span id="small">euler</span>
+      </button>
+      <button id="mostrarDatos">me
+        <br><span id="small">memoria</span>
+      </button>
+
+      <p style="font-family: Arial, sans-serif; font-size: 24px; font-weight: bold;">
+        <span style="font-size: 48px; line-height: 1;">Casio</span>
+        <br>
+        <span style="font-size: 18px; line-height: 1;">2000 - Mitnick</span>
+      </p>
+    </div>
+  </div>
+  
+  <script src="calc.js"></script>
+</body>
+</html>
